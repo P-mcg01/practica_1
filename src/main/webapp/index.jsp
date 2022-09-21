@@ -8,7 +8,7 @@
       body {
         height: 100vh;
         overflow-y: hidden;
-        background-image: url(./img/fondo_2.jpg);
+        background-image: url(./img/fondo.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-origin: border-box;
@@ -18,24 +18,24 @@
       
       h1 {
         text-align: center;
-        color: #EAD4D0;
+        color: #dfe3ff;
       }
       
       a {
         height: 10vh;
         padding: 4%;
         flex-basis: 30%;
-        color: #e0fff7;
-        background-color: rgba(125, 164, 168, 0.1);
+        color: #f6fbff;
+        background-color: rgba(0, 0, 0, 0.1);
         border-radius: 15px;
-        border-left: 0.5px solid #EAD4D0;
-        border-bottom: 0.5px solid #EAD4D0;
+        border-left: 0.5px solid #fddf5973;
+        border-bottom: 0.5px solid #fddf5973;
         text-decoration: none;
         text-align: center;
         font-weight: 600;
         font-size: 1.4em;
         backdrop-filter: blur(18px);
-        box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.8);
+        box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.5);
         transition-property: backdrop-filter;
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
@@ -48,7 +48,7 @@
       
       .container {
         width: 60vw;
-        margin: 5em auto;
+        margin: 10em auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;

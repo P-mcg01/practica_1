@@ -16,12 +16,12 @@
         font-family: sans-serif;
       }
       
-      h1 {
+    h1 {
         text-align: center;
         color: #222;
       }
       
-      form {
+    form {
         width: 40vw;
         margin: 10vh auto;
         padding: 2em;
@@ -34,8 +34,8 @@
         row-gap: 0.5em;
       }
       
-      input,
-      textarea {
+    input,
+    textarea {
         outline: none;
         border: none;
         background-color: rgba(255, 255, 255, 0.1);
@@ -45,13 +45,13 @@
         margin-bottom: 1em;
       }
       
-      ::placeholder {
+    ::placeholder {
         color: #aaa;
         font-size: 0.8em;
         font-weight: 300;
       }
       
-      button[type="submit"] {
+    button[type="submit"] {
         color: #222;
         background-color: rgb(74,165,195);
         border: none;
@@ -61,7 +61,7 @@
         border-radius: 10px;
       }
       
-      .medio {
+    .medio {
         display: flex;
         flex-flow: column nowrap;
         row-gap: 0.2em;
@@ -76,7 +76,7 @@
       <input id="txtTitulo" type="text" name="titulo">
       <label for="txtAutor">Autor</label>
       <input id="txtAutor" type="text" name="autor">
-      <label for="Resumen"></label>
+      <label for="Resumen">Resumen: </label>
       <textarea name="resumen" id="Resumen" cols="30" rows="10"></textarea>
       <fieldset class="medio">
         <legend>Medio</legend>
